@@ -37,7 +37,7 @@ function display() {
             <td>${i + 1}</td>
             <td>${siteElementContainer[i].name}</td>
             <td><button class="btn btn-visit px-2 m-2 "><i class="fa-solid fa-eye pe-2"></i><a href="${
-              siteUrl.value
+              siteElementContainer[i].url
             }"  target="_blank">Visit</a></button>
             </td>
             <td><button onclick="deletedSite(${i})" class="btn btn-delete px-2 m-2"><i
